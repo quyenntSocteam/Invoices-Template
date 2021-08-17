@@ -21,7 +21,7 @@
           <div class="inner-button flex">
             <img src="@/assets/icon-plus.svg" />
           </div>
-          <span>New Invoice</span>
+          <span>New Receipt</span>
         </div>
       </div>
     </div>
