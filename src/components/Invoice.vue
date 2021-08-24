@@ -16,7 +16,7 @@
         }"
       >
         <span v-if="invoice.invoicePaid">Paid Data Dev</span>
-        <span v-if="invoice.invoiceDraft">Draft Data</span>
+        <span v-if="invoice.invoiceDraft">Draft Data Dev</span>
         <span v-if="invoice.invoicePending">Pending Data</span>
       </div>
       <div class="icon">
