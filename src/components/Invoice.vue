@@ -18,6 +18,7 @@
           pending: invoice.invoicePending,
         }"
       >
+        <h1>Change code status</h1>
       </div>
       <div class="icon">
         <img src="@/assets/icon-arrow-right.svg" alt="" />
