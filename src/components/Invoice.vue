@@ -18,9 +18,6 @@
           pending: invoice.invoicePending,
         }"
       >
-        <span v-if="invoice.invoicePaid">Paid Data Dev 2</span>
-        <span v-if="invoice.invoiceDraft">Draft Data Dev 2</span>
-        <span v-if="invoice.invoicePending">Pending Data 2</span>
       </div>
       <div class="icon">
         <img src="@/assets/icon-arrow-right.svg" alt="" />
