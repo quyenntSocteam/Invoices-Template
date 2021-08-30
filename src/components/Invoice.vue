@@ -1,5 +1,8 @@
 <template>
-  <router-link class="invoice flex" :to="{ name: 'Invoice', params: { invoiceId: invoice.invoiceId } }">
+  <router-link
+    class="invoice flex"
+    :to="{ name: 'Invoice', params: { invoiceId: invoice.invoiceId } }"
+  >
     <div class="left flex">
       <span class="tracking-number">#{{ invoice.invoiceId }}</span>
       <span class="due-date">{{ invoice.paymentDueDate }}</span>
@@ -16,11 +19,11 @@
         }"
       >
         <span v-if="invoice.invoicePaid">Paid Data Dev 2</span>
-        <span v-if="invoice.invoiceDraft">Draft Data Dev 1</span>
-        <span v-if="invoice.invoicePending">Pending Data 1</span>
+        <span v-if="invoice.invoiceDraft">Draft Data Dev 2</span>
+        <span v-if="invoice.invoicePending">Pending Data 2</span>
       </div>
       <div class="icon">
-          <img src="@/assets/icon-arrow-right.svg" alt="">
+        <img src="@/assets/icon-arrow-right.svg" alt="" />
       </div>
     </div>
   </router-link>
